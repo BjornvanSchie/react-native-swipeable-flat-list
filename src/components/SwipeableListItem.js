@@ -219,6 +219,7 @@ export default class SwipeableListItem extends Component {
 				friction, // default: 7
 				tension, // default: 40
 			},
+			useNativeDriver: true,
 		).start()
 		this.setState({
 			swipeState,
@@ -272,6 +273,7 @@ export default class SwipeableListItem extends Component {
 				friction, // default: 7
 				tension, // default: 40
 			},
+			useNativeDriver: true,
 		).start()
 		this.setState({
 			swipeState: SWIPE.STATE.CLOSED,
